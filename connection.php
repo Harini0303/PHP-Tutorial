@@ -1,5 +1,5 @@
 <?php
-$connection=mysqli_connect('localhost','root','','technical_event_kpriet');
+$connection=mysqli_connect('localhost','root','','login');
 if(!$connection){
     die(mysqli_error($connection));
 
